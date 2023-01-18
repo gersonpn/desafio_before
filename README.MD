@@ -45,9 +45,6 @@ A lista de pokémons foi obtida através da API <https://pokeapi.co/>. A interfa
 
 - Quando o usuário efetua o clique sobre algum pokemon, um card é apresentado na tela com sua imagem e informações.
 
-![Pokemons](./img/semfoto.png)
-
-- Caso o pokemon não tenha uma imagem na API, o mesmo é representado pela logo do anime.
 
 ![Pokemons](./img/pokecardu.png)
 
