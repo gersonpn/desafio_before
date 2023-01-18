@@ -95,9 +95,9 @@ function popularPoke(pokemons) {
             let tipoPoke = document.createElement("p");
             tipoPoke.innerHTML = "Tipo: " + response.types[0].type.name;
             let pesoPoke = document.createElement("p");
-            pesoPoke.innerHTML = "Peso: " + response.weight + "kg";
+            pesoPoke.innerHTML = "Peso: " + response.weight/10 + "kg" ;
             let alturaPoke = document.createElement("p");
-            alturaPoke.innerHTML = "Altura: " + response.height + "m";
+            alturaPoke.innerHTML = "Altura: " + response.height/10 + "m";
             let habilidadesPoke = document.createElement("p");
             let habiliPoke = 'habilidades: ';
             response.abilities.forEach((element) => {
